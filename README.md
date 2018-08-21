@@ -78,7 +78,7 @@ lattices, homomorphisms, quotient groups, group actions, rings.
 
 Textbook
 --------
-<a href="http://abstract.ups.edu/"><IMG border="0" src="misc/images/Judson_2018.jpeg" height="250">  
+<a href="http://abstract.ups.edu/"><IMG border="0" src="misc/images/Judson_2018.png" height="250">  
 [Abstract Algebra: theory and applications](http://abstract.ups.edu/)
 by Tom Judson
 
