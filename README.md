@@ -15,38 +15,54 @@ It is helpful, but not required, to send the instructor an email in advance
 to notify him of your intention to attend office hours.
 
 
+---
+
+## Contents
+
+- [Introduction](#introduction)
+- [Overview](#overview)
+- [Learning Outcomes](#learning-outcomes)
+- [Prerequisites](#prerequisites)
+- [Textbook Information](#textbook-information)
+- [Homework](#homework)
+- [Exams](#exams)
+- [Make-up Policy](#make-up-policy)
+- [Computing](#computing)
+- [Questions and Online Discussions](#questions-and-online-discussions)
+- [Disabilities Statement](#disabilities-statement)
+- [Other References](#other-references)
 
 -------------------------------------------
-
+## Introduction 
 You are now reading the main course webpage (which is simply a README.md
-file in a GitHub repository called math3140-fall2018).  The paragraphs below serve as the syllabus for Math 3140.
+file in a GitHub repository called math3140-fall2018).  
+The paragraphs below serve as the syllabus for Math 3140.
 
 *This page and the subdirectories of this repository (see links above) will
  be updated throughout the semester, and students are expected to visit this
  page routinely.* 
 
-Please bookmark this page or, better yet,
-<a href="mailto:?subject=MATH 3140 webpage&amp;body=The Math 3140 webpage is
- http://github.com/williamdemeo/math3140-fall2018">email the url of this
- page to yourself!</a>
-
 For this class the CU D2L system will be used only for recording grades. 
 
 
------------------------------------------------------------------------
-- [Prerequisites](#prerequisites)
-- [Overview](#overview)
-- [Learning Outcomes](#learning-outcomes)
-- [Textbook](#textbook)
-- [Homework](#homework)
-- [Exams](#exams)
-- [Computing](#computing)
-- [Questions and Online Discussions](#questions-and-online-discussions)
-- [Other references](#other-references)
+--------
+## Overview
+Basic theory of groups and other algebraic structures, with an emphasis on writing proofs.  
++ Introduction to algebraic and relational structures.  
++ Brief introduction to a few special structures: groupoids, semigroups, monoids, graphs, posets, lattices.  
++ Elementary theory of groups: subgroups, cyclic groups, permutation groups, cosets.  
++ Isomorphisms, quotient groups, homomorphisms; group isomorphism theorems.  
++ Group actions, Sylow theorems.  
++ Introduction to rings (time permitting). 
 
+--------
+## Learning Outcomes
+Develop skill in communicating mathematics. Develop competence in writing proofs. 
+Construct proofs about the following mathematical structures and concepts: groups,
+lattices, homomorphisms, quotient groups, group actions, rings.
 
-Prerequisites
--------------
+--------
+## Prerequisites
 The most important prerequisite for this class is Math 2001.  If you did well in
 Math 2001, you should be able to do well in this course.  Although you are not
 expected to be highly skilled at constructing your own original proofs upon entering
@@ -59,26 +75,8 @@ During the first few lectures, we will review some of the required background.
 If this early material seems unfamiliar and difficult to you, then it is likely
 that you will find the course very challenging.
 
-
-Overview
 --------
-Basic theory of groups and other algebraic structures, with an emphasis on writing proofs.  
-+ Introduction to algebraic and relational structures.  
-+ Brief introduction to a few special structures: groupoids, semigroups, monoids, graphs, posets, lattices.  
-+ Elementary theory of groups: subgroups, cyclic groups, permutation groups, cosets.  
-+ Isomorphisms, quotient groups, homomorphisms; group isomorphism theorems.  
-+ Group actions, Sylow theorems.  
-+ Introduction to rings (time permitting). 
-
-Learning Outcomes
------------------
-Develop skill in communicating mathematics. Develop competence in writing proofs. 
-Construct proofs about the following mathematical structures and concepts: groups,
-lattices, homomorphisms, quotient groups, group actions, rings.
-
-
-Textbook
---------
+## Textbook Information
 <a href="http://abstract.ups.edu/"><IMG border="0" src="misc/images/Judson_2018.png" height="250">  
 [Abstract Algebra: theory and applications](http://abstract.ups.edu/)
 by Tom Judson
@@ -86,8 +84,8 @@ by Tom Judson
 See also the [other references](#other-references) below.
 
 
-Homework
 --------
+## Homework
 **Homework is worth 30%** of the course grade and will be assigned slightly less than
 once per week. Students must solve many homework problems in order to do well
 in the course.
@@ -109,9 +107,8 @@ Students are not required to turn in corrected solutions, but
 would do well to keep up with the corrections since these can be very 
 useful when preparing for exams.
 
-
-Exams
 -----
+## Exams
 
 **Two Midterm Exams each worth 20%** of the course grade will be given during the
   semester; the exact dates will be announced soon after the course begins.
@@ -125,8 +122,40 @@ students at the scheduled time. *There are no make-up exams.*
 + Final Exam Date: **Wednesday, December 19, 1:30--4pm** in  MUEN D439.
 
 
-Computing
----------
+
+
+-----------------------------------
+## Make-up Policy
+
+**No late homework will be accepted for any reason.**  If you fail
+to submit homework on time, this will not necessarily hurt
+your final course grade since the lowest homework score will be dropped.
+
+Generally speaking, there are no make-up exams. However, 
+if you must miss an exam for one of the legitimate reasons listed below,
+and if you contact the professor at least five days before the exam date,
+then you might be able to take a make-up exam *before the scheduled exam time*.
+
+To request a make-up exam, a student must provide documented evidence of
+one of the following:
+
++ Documented medical excuse - student's own medical emergency.
++ Documented medical excuse - a member of the student's family has a medical emergency.
++ Extra curricular activity sponsored University of Colorado.
++ Armed forces deployment (military duty).
++ Officially mandated court appearances, including jury duty.
++ A conflict with another exam or if you have three or more final exams on a
+  given day.  (In each case the exam with the fewest students must arrange the make-up exam.)
+
+If you miss an exam due to some unforeseen circumstance, you must contact the 
+professor within one class meeting after the missed test and provide an
+explanation. If your excuse is accepted, the missed test score may be replaced 
+with 80% of your final exam score. For example, if your excuse is accepted and
+you score a 90% on the final, then you will receive a 72% for the missed test
+(0.80*0.90 = 0.72).
+
+---
+## Computing
 
 No prior programming experience is required for this course, and the amount of
 computing done in this class will be left up to the students.  I encourage, but
@@ -160,9 +189,8 @@ It is [a Sage companion to our textbook!](http://abstract.ups.edu/sage-aata.html
 If you've used Sage before and just need a quick refresher, you might
 check out the [Sage Quick Start Guides](http://www.sagemath.org/doc/prep/quickstart.html).  
 
-
-Questions and Online Discussions
---------------------------------
+---
+## Questions and Online Discussions
 You are welcome to ask lots of questions in this class (during lecture, in
 office hours, via email, etc.).  You are especially encouraged to use a public 
 forum to ask questions so that all students can benefit.
@@ -174,8 +202,8 @@ when you want to ask a question, or raise an issue, or start an online dialog
 with the prof and/or your classmates. If you have any trouble editing
 the class wiki pages, please [notify the professor](mailto:williamdemeo@gmail.com).
 
-Disabilities Statement
-----------------------
+---
+## Disabilities Statement
 If you believe that you have a disability that qualifies under the
 Americans with Disabilities Act and Section 504 of the Rehabilitation
 Act and requires accommodations, you should contact the [Student Disability
@@ -184,8 +212,9 @@ The next step is to talk to the instructor who will be happy to assist with acco
 provide them retroactively** (so file the appropriate requests and paperwork 
 before the first exam!)
 
-Other References
-----------------
+---
+
+## Other References
 [Our textbook](http://abstract.ups.edu/) should cover everything we need for
 this course.  However, there are many other books that provide alternative
 expositions of the same topics, and some are particularly good and might be
