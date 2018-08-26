@@ -1,24 +1,25 @@
-Math 3140: Abstract Algebra I -- Fall 2018
-=========================================
+# Math 3140: Abstract Algebra I -- Fall 2018
 
-**Instructor:** William DeMeo  
+**Lecture Time and Location.** MWF 9:00--9:50pm in MUEN D439.  
+**Final Exam Date, Time and Location.** Wednesday, December 19, 1:30--4pm in  MUEN D439.  
+**Course Webpage:** http://github.com/williamdemeo/math3140-fall2018 (this page!)
+
+---
+
+**Instructor:** Dr. William DeMeo  
 **Email:** [williamdemeo@gmail.com](mailto:williamdemeo@gmail.com)  
 **Office:** MATH, Room 202  
 **Office hours:** TBA
-+ It is helpful (but not required) to send me an email in advance to let me know when you plan to visit.
 
-**Lecture time/location:** MWF 9:00--9:50pm in MUEN D439.
+It is helpful, but not required, to send the instructor an email in advance 
+to notify him of your intention to attend office hours.
 
-**Course Webpage:** http://github.com/williamdemeo/math3140-fall2018 (this page!)
+
 
 -------------------------------------------
 
 You are now reading the main course webpage (which is simply a README.md
-file in a GitHub repository called math3140-fall2018).  If you don't know what
-the stuff in parentheses means, don't worry. It will be explained at our first
-class meeting. 
-
-The paragraphs below serve as the syllabus for Section B of Math 3140.
+file in a GitHub repository called math3140-fall2018).  The paragraphs below serve as the syllabus for Math 3140.
 
 *This page and the subdirectories of this repository (see links above) will
  be updated throughout the semester, and students are expected to visit this
@@ -29,7 +30,7 @@ Please bookmark this page or, better yet,
  http://github.com/williamdemeo/math3140-fall2018">email the url of this
  page to yourself!</a>
 
-For this class the ISU Blackboard system will be used only for recording test scores. 
+For this class the CU D2L system will be used only for recording grades. 
 
 
 -----------------------------------------------------------------------
@@ -188,8 +189,11 @@ Other References
 [Our textbook](http://abstract.ups.edu/) should cover everything we need for
 this course.  However, there are many other books that provide alternative
 expositions of the same topics, and some are particularly good and might be
-worth a look.  Here are a few of your instructor's favorites, along with some
-comments about them:
+worth a look.  Below are a few of your instructor's favorites, along with some
+comments about them, but first, here's a list of some free online resources:
+
++ [Algebra: Abstract and Concrete](http://homepage.divms.uiowa.edu/~goodman/algebrabook.dir/download.htm) by Frederick Goodman
++ [Wikibook](https://en.wikibooks.org/wiki/Abstract_Algebra)
 
 <!-- Jacobson -->
 <a href="http://click.linksynergy.com/fs-bin/click?id=xEro7OMQWE4&offerid=229293.146&subid=0&type=4"><IMG border="0"  src="misc/images/Jacobson.jpeg" height="250"></a>
