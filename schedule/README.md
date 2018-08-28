@@ -6,7 +6,7 @@ should refer to this page often.
 
 All chapters and sections and exercise numbers refer to  those in the book "Abstract Algebra: theory and applications" by Judson (August 1, 2018 edition).
 
-Problems numbers that appear in parentheses are recommended but not required. You need not submit solutions to these exercises.
+You need not submit solutions to exercises marked "suggested."
 
 (The exercise numbers in the assignments listed below were originally chosen while using an earlier edition of the textbook.  I will revise these numbers as necessary to match the appropriate exercise in the latest edition of the book, but please be aware that mistakes may occur;  if in doubt, plesae post a question on Piazza.)
 
@@ -25,7 +25,8 @@ Problems numbers that appear in parentheses are recommended but not required. Yo
 | Day & Date | Topic | Reading Due | Exercises Due |
 | --- | --- | --- | --- |
 | M 9/3 | (no class---Labor Day) |   |  | 
-| W 9/5 | WOP and PMI    |  | **Ch 1**: 1cd, 2bd, 3, 7, 20b, 22cd, 24bc, (24de), 25d, (28) |
+| W 9/5 | WOP and PMI    |  | **Ch 1**: 1cd, 2bd, 3, 7, 20b, 22cd, 24bc, 25d |
+|||| **suggested**: 24de, 28 |
 | F 9/7 | division algorithm and gcd  | **Ch 2**  |  |  
 | M 9/10 | primes numbers and prime factorizations  |  | |
 | W 9/12 | FTA  |  | **Ch 2**: 14, 22, 24, 25, 26, 28 |
@@ -74,8 +75,8 @@ Problems numbers that appear in parentheses are recommended but not required. Yo
 | F 11/23 | Fall Break| no class  | | 
 | M 11/26 | group actions: orbits, stabilizers | | **Ch 11**: 7, 11, 17, 18, 19  |    
 | W 11/28 | group actions: the class equation  | |
-|  F 11/30 | introducing rings || **solve**: 1-7 of [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/Math301-Fall2014/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true)  |
-|| |  | **turn in**: 5, 7 of  [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/Math301-Fall2014/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true)  |
+|  F 11/30 | introducing rings || 5, 7 of  [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/Math301-Fall2014/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true) |
+|||| **suggested**: 1-7 of [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/Math301-Fall2014/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true)  |
 
 
 ## December
