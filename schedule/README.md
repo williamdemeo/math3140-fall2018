@@ -8,6 +8,8 @@ All chapters and sections and exercise numbers refer to  those in the book "Abst
 
 Problems numbers that appear in parentheses are recommended but not required. You need not submit solutions to these exercises.
 
+(The exercise numbers in the assignments listed below were originally chosen while using an earlier edition of the textbook.  I will revise these numbers as necessary to match the appropriate exercise in the latest edition of the book, but please be aware that mistakes may occur;  if in doubt, plesae post a question on Piazza.)
+
 ---
 
 ## August
@@ -15,7 +17,7 @@ Problems numbers that appear in parentheses are recommended but not required. Yo
 | Day & Date | Topic | Reading Due | Exercises Due |
 | --- | --- | --- | --- |
 | M 8/27 | Course overview |  | |
-| W 8/29 | intro to structures, equivalence relations | **Jud** Ch 1 | |
+| W 8/29 | intro to structures, equivalence relations | **Ch 1** | |
 | F 8/31 | linear orderings, WOP, PMI |  |  | 
 
 ## September
