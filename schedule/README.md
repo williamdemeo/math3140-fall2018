@@ -75,8 +75,8 @@ You need not submit solutions to exercises marked "suggested."
 | F 11/23 | Fall Break| no class  | | 
 | M 11/26 | group actions: orbits, stabilizers | | **Ch 11**: 7, 11, 17, 18, 19  |    
 | W 11/28 | group actions: the class equation  | |
-|  F 11/30 | introducing rings || 5, 7 of  [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/Math301-Fall2014/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true) |
-|||| **suggested**: 1-7 of [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/Math301-Fall2014/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true)  |
+|  F 11/30 | introducing rings || 5, 7 of  [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/math3140-Fall2018/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true) |
+|||| **suggested**: 1-4, 6 of [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/math3140-Fall2018/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true)  |
 
 
 ## December
