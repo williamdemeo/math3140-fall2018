@@ -1,10 +1,10 @@
-# Math 3140: Fall 2018 -- Textbook
+## Textbook for Math 3140, CU Boulder, Fall 2018
 
 The file
 [aata-20180801.pdf](https://github.com/williamdemeo/math3140-fall2018/blob/master/textbook/aata-20180801.pdf?raw=true)
 in this directory is the textbook used for Math 3140 at CU in Fall 2018.
 
-## Math 3140 Conventions
+### Math 3140 Conventions
 
 Here is a list of some conventions used in this class that may differ from those of our textbook.
 
