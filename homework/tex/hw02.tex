@@ -1,0 +1,96 @@
+% Example LaTeX document for GP111 - note % sign indicates a comment
+\documentclass[12pt,reqno]{amsart}
+\usepackage[top=1.5cm, left=1.5cm,right=1.5cm,bottom=1.5cm]{geometry}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color,hyperref,enumerate,multicol}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+            
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\pagestyle{empty}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\meet}{\ensuremath{\wedge}}
+\newcommand{\Meet}{\ensuremath{\bigwedge}}
+\newcommand{\join}{\ensuremath{\vee}}
+\renewcommand{\emptyset}{\ensuremath{\varnothing}}
+\renewcommand{\subset}{\ensuremath{\subsetneq}}
+\newcommand{\boldemph}{\emph}
+\newcommand{\lcm}{\operatorname{lcm}}
+
+\begin{document}
+\thispagestyle{empty}
+
+\noindent \textbf{Math 3140}  \hfill {\bf Homework 2}
+\vskip1cm
+\noindent {\bf Chapter 2:}  14, 22, 24, 25, 26, 28.  \\
+{\bf Due date:} Wednesday, 9/12
+
+\medskip
+
+\begin{enumerate}
+
+%% 14 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 14.}]
+Show that the Principle of Well-Ordering for the natural numbers implies that 0 is the smallest natural number.  Use this result to show that the Principle of Well-Ordering implies the Principle of Mathematical Induction; that is, show that if $S \subset {\mathbb N}$ such that $0 \in S$ and $n + 1 \in S$ whenever $n \in S$, then $S = \mathbb N$.  
+
+\bigskip
+
+%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 22.}]
+Let $n \in {\mathbb N}$.  Use the division algorithm to prove that every integer is congruent mod $n$ to precisely one of the integers $0, 1, \ldots, n-1$.  Conclude that if $r$ is an integer, then there is exactly one $s$ in ${\mathbb Z}$ such that $0 \leq s < n$ and $[r] = [s]$.   Hence, the integers are indeed partitioned by congruence mod $n$. 
+
+\bigskip
+
+%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 23.}]
+Define the \boldemph{least common multiple} of two nonzero integers $a$ and $b$, denoted by $\lcm(a,b)$\label{leastcm}, to be the nonnegative integer $m$ such that both $a$ and $b$ divide $m$, and if $a$ and $b$  divide any other integer $n$, then $m$ also divides $n$.  Prove that any two integers $a$ and $b$ have a unique least common multiple. 
+
+N.B. Exercise 23 is not required. It is included here for you reference, since it defines \emph{least common multiple}.
+
+
+\bigskip
+
+%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 24.}]
+If $d= \gcd(a, b)$ and $m = \lcm(a, b)$, prove that $dm = |ab|$.
+
+
+\bigskip
+
+%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 25.}]
+Show that $\lcm(a,b) = ab$ if and only if $\gcd(a,b) = 1$.
+
+
+\bigskip
+
+%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 26.}]
+Prove that $\gcd(a,c) = \gcd(b,c) =1$ if and only if $\gcd(ab,c) = 1$ for integers $a$, $b$, and $c$.
+
+N.B. The following problem (Exercise 27) is not required. It is included here for you reference, since it may be useful when solving 26 (depending on the proof strategy you use). You may use the result stated in Exercise 27, even if you have not yet proved it.
+
+
+\bigskip
+
+%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 27.}]
+Let $a, b, c \in {\mathbb Z}$.  Prove that if $\gcd(a,b) = 1$ and $a  \mid bc$, then $a  \mid  c$. 
+
+ 
+
+\bigskip
+
+%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 28.}]
+Let $p \geq 2$.  Prove that if $2^p-1$ is prime, then $p$ must also be prime.
+
+\end{enumerate}
+\end{document}
