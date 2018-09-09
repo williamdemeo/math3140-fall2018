@@ -9,7 +9,7 @@
 **Instructor:** Dr. William DeMeo  
 **Email:** [williamdemeo@gmail.com](mailto:williamdemeo@gmail.com)  
 **Office:** MATH, Room 202  
-**Office hours:** TBA
+**Office hours:** Mondays and Wednesdays, 10:15--11:30am
 
 It is helpful, but not required, to send the instructor an email in advance 
 to notify him of your intention to attend office hours.
