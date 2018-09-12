@@ -28,12 +28,12 @@ You need not submit solutions to exercises marked "suggested."
 | W 9/5 | WOP and PMI    |  | **Ch 1**: 1cd, 2bd, 3, 7, 20b, 22cd, 24bc, 25d |
 |||| **suggested**: 24de, 28 |
 | F 9/7 | division algorithm and gcd  | **Ch 2**  |  |  
-| M 9/10 | primes numbers and prime factorizations  |  | |
-| W 9/12 | FTA  |  | **Ch 2**: 14, 22, 24, 25, 26, 28 |
-| F 9/14 | structures: groupoids, semigroups, monoids, posets, lattices, graphs  | | |
-| M 9/17 | intro to groups, subgroups  | **Ch 3**  | |
-| W 9/19 | congruences, quotients  | |  |
-| F 9/21 | cyclic groups  | | **Ch 3**: 1d, 2bd, 3, 5, 7, 12  |
+| M 9/10 | primes numbers, prime factorizations, FTA  |  | |
+| W 9/12 | structures: groupoids, semigroups, monoids, posets, semilattices, lattices, graphs |  | **Ch 2**: 14, 22, 24, 25, 26, 28 |
+| F 9/14 | intro to groups  | **Ch 3** | |
+| M 9/17 | subgroups, congruences |  | |
+| W 9/19 | congruences, quotients  | | **Ch 3**: 1bd, 2bd, 3, 5, 7, 12 |
+| F 9/21 | cyclic groups  | |   |
 | M 9/24 | cyclic groups  | **Ch 4** | |
 | W 9/26 | permutation groups   |  | **Ch 3**: 16, 17, 31, 33, 44, 45, 52  |
 |||| **suggested**: 35, 46, 47, 54  |

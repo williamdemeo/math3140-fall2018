@@ -1,0 +1,171 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage[top=1.5cm, left=1.5cm,right=1.5cm,bottom=1.5cm]{geometry}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color,hyperref,enumerate,multicol}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+            
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\pagestyle{empty}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\meet}{\ensuremath{\wedge}}
+\newcommand{\Meet}{\ensuremath{\bigwedge}}
+\newcommand{\join}{\ensuremath{\vee}}
+\renewcommand{\emptyset}{\ensuremath{\varnothing}}
+\renewcommand{\subset}{\ensuremath{\subsetneq}}
+\newcommand{\boldemph}{\emph}
+\newcommand{\lcm}{\operatorname{lcm}}
+
+\begin{document}
+\thispagestyle{empty}
+
+\noindent \textbf{Math 3140} \hfill {\bf Homework 3} 
+\vskip1cm
+\noindent {\bf Chapter 3:} 1bd, 2bd, 3, 5, 7, 12.  
+\\
+{\bf Due date:} Wednesday, 9/19
+
+\medskip
+
+\begin{enumerate}
+
+%% 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 1.}]
+Find all $x \in {\mathbb Z}$ satisfying each of the following equations.
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item 
+$3x \equiv 2 \pmod{ 7}$
+
+\item
+$5x + 1 \equiv 13 \pmod{ 23}$
+
+\item
+$5x + 1 \equiv 13 \pmod{ 26}$
+
+\item
+$9x \equiv 3 \pmod{ 5}$
+
+\item
+$5x \equiv 1 \pmod{ 6}$
+
+\item
+$3x \equiv 1 \pmod{ 6}$
+
+\end{enumerate}
+\end{multicols}
+
+\medskip
+%% 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 2.}]
+Which of the following multiplication tables defined on the set $G =
+\{ a, b, c, d \}$ form a group? Support your answer in each case. 
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item
+\[
+\begin{array}{c|cccc}
+\circ & a & b & c & d \\
+\hline
+a & a & c & d & a \\
+b & b & b & c & d \\
+c & c & d & a & b \\
+d & d & a & b & c
+\end{array}
+\]
+
+\item
+\[
+\begin{array}{c|cccc}
+\circ & a & b & c & d \\
+\hline
+a & a & b & c & d \\
+b & b & a & d & c \\
+c & c & d & a & b \\
+d & d & c & b & a
+\end{array}
+\]
+ 
+\item
+\[
+\begin{array}{c|cccc}
+\circ & a & b & c & d \\
+\hline
+a & a & b & c & d \\
+b & b & c & d & a \\
+c & c & d & a & b \\
+d & d & a & b & c
+\end{array}
+\]
+
+\item
+\[
+\begin{array}{c|cccc}
+\circ & a & b & c & d \\
+\hline
+a & a & b & c & d \\
+b & b & a & c & d \\
+c & c & b & a & d \\
+d & d & d & b & c
+\end{array}
+\]
+
+\end{enumerate}
+\end{multicols}
+
+\medskip
+
+%% 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 3.}]
+Write out Cayley tables for groups formed by the symmetries of a
+rectangle and for $({\mathbb Z}_4, +)$. How many elements are in each
+group? Are the groups the same? Why or why not? 
+ 
+ 
+\medskip
+
+%% 5 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 5.}]
+Describe the symmetries of a square and prove that the set of
+symmetries is a group. Give a Cayley table for the symmetries. How
+many ways can the vertices of a square be permuted?  Is each
+permutation necessarily a symmetry of the square?  The symmetry group
+of the square is denoted by $D_4$.
+ 
+\medskip
+
+%% 7 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 7.}]
+Let $S = {\mathbb R} \setminus \{ -1 \}$ and define a binary operation on
+$S$ by $a \ast b = a + b +ab$. Prove that $(S, \ast)$ is an abelian
+group.
+ 
+
+\medskip
+
+%% 12 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 12.}]
+Let ${\mathbb Z}_2^n = \{ (a_1, a_2, \ldots, a_n) : a_i \in {\mathbb Z}_2
+\}$. Define a binary operation on ${\mathbb Z}_2^n$ by
+\[
+(a_1, a_2, \ldots, a_n)
++
+(b_1, b_2, \ldots, b_n)
+=
+(a_1+b_1, a_2+b_2, \ldots, a_n+b_n).
+\]
+Prove that ${\mathbb Z}_2^n$ is a group under this operation. This group
+is important in algebraic coding theory. 
+ 
+
+\end{enumerate}
+\end{document}
