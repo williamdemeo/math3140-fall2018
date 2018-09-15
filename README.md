@@ -113,16 +113,22 @@ useful when preparing for exams.
 **Two Midterm Exams each worth 20%** of the course grade will be given during the
   semester; the exact dates will be announced soon after the course begins.
 
-+ Midterm Dates: TBA
-
 The **Final Exam is worth 30%** of the course grade.
 In accordance with university policy, the final exam must be taken by all
 students at the scheduled time. *There are no make-up exams.*
 
-+ Final Exam Date: **Wednesday, December 19, 1:30--4pm** in  MUEN D439.
++ **MIDTERM EXAM 1** (focus: Ch 1--5)   
+**DATE:** Wednesday, October 10    
+**LOCATION:** MUEN D439  
+  
++ **MIDTERM EXAM 2** (focus: Ch 6, 9--11, 19)   
+**DATE:** Monday, November 12   
+**LOCATION:** MUEN D439  
 
-
-
++ **FINAL EXAM** (cumulative)   
+**DATE:** Wedensday, December 19   
+**TIME:** 1:30--4pm   
+**LOCATION:** MUEN D439
 
 -----------------------------------
 ## Make-up Policy
