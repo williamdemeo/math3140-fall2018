@@ -35,8 +35,8 @@ You need not submit solutions to exercises marked "suggested."
 | W 9/19 | congruences, quotients  | | **Ch 3**: 1bd, 2bd, 3, 5, 7, 12 |
 | F 9/21 | cyclic groups  | |   |
 | M 9/24 | cyclic groups  | **Ch 4** | |
-| W 9/26 | permutation groups   |  | **Ch 3**: 16, 17, 31, 33, 44, 45, 52  |
-|||| **suggested**: 35, 46, 47, 54  |
+| W 9/26 | permutation groups   |  | **Ch 3**: 16, 17, 31, ~~33~~, 34, ~~44~~, 45, 46, 52 |
+| | | | **suggested**: 32, 33, 35, ~~46~~, 47, 48, 51, 54  |
 | F 9/28 | permutation groups  | **Ch 5** | |
 
 ## October
