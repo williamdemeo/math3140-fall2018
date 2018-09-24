@@ -25,17 +25,17 @@ You need not submit solutions to exercises marked "suggested."
 | Day & Date | Topic | Reading Due | Exercises Due |
 | --- | --- | --- | --- |
 | M 9/3 | (no class---Labor Day) |   |  | 
-| W 9/5 | WOP and PMI    |  | **Ch 1**: 1cd, 2bd, 3, 7, 20b, 22cd, 24bc, 25d |
+| W 9/5 | WOP and PMI    |  | **HW 1. Ch 1**: 1cd, 2bd, 3, 7, 20b, 22cd, 24bc, 25d |
 |||| **suggested**: 24de, 28 |
 | F 9/7 | division algorithm and gcd  | **Ch 2**  |  |  
 | M 9/10 | primes numbers, prime factorizations, FTA  |  | |
-| W 9/12 | structures: groupoids, semigroups, monoids, posets, semilattices, lattices, graphs |  | **Ch 2**: 14, 22, 24, 25, 26, 28 |
+| W 9/12 | structures: groupoids, semigroups, monoids, posets, semilattices, lattices, graphs |  | **HW 2. Ch 2**: 14, 22, 24, 25, 26, 28 |
 | F 9/14 | intro to groups  | **Ch 3** | |
 | M 9/17 | subgroups, congruences |  | |
-| W 9/19 | congruences, quotients  | | **Ch 3**: 1bd, 2bd, 3, 5, 7, 12 |
+| W 9/19 | congruences, quotients  | | **HW 3. Ch 3**: 1bd, 2bd, 3, 5, 7, 12 |
 | F 9/21 | cyclic groups  | |   |
 | M 9/24 | cyclic groups  | **Ch 4** | |
-| W 9/26 | permutation groups   |  | **Ch 3**: 16, 17, 31, ~~33~~, 34, ~~44~~, 45, 46, 52 |
+| W 9/26 | permutation groups   |  | **HW 4. Ch 3**: 16, 17, 31, ~~33~~, 34, ~~44~~, 45, 46, 52 |
 | | | | **suggested**: 32, 33, 35, ~~46~~, 47, 48, 51, 54  |
 | F 9/28 | permutation groups  | **Ch 5** | |
 
@@ -43,22 +43,22 @@ You need not submit solutions to exercises marked "suggested."
 
 | Day & Date | Topic | Reading Due | Exercises Due |
 | --- | --- | --- | --- |
-| M 10/1 | symmetric and alternating groups  | | **Ch 4**: 6, 12, 13, 28, 30, 35 | 
+| M 10/1 | symmetric and alternating groups  | | **HW 5. Ch 4**: 6, 12, 13, 28, 30, 35 | 
 | W 10/3 | symmetric and alternating groups  |  | 
-| F 10/5 | catch up and/or review   | | **Ch 5**: 1bd, 3bd, 4, 6, 17, 18, 27  |
+| F 10/5 | catch up and/or review   | | **HW 6. Ch 5**: 1bd, 3bd, 4, 6, 17, 18, 27  |
 |        | | | **suggested**: 29, 31, 32, 33 |  
 | M 10/8 | midterm review | | |
 | W 10/10 | **Midterm Exam 1** | focus: Ch 1--5 | |  
 | F 10/12 | posets, lattices   | | |
 | M 10/15 | lattice isomorphisms, order preserving maps  | **Ch 19** | |
 | W 10/17 | cosets  | **Ch 6** | |
-| F 10/19 | Lagrange's Theorem  | | **Ch 19**: 3, 14, 20 plus handout hw07.pdf |
+| F 10/19 | Lagrange's Theorem  | | **HW 7. Ch 19**: 3, 14, 20 plus handout hw07.pdf |
 | M 10/22 | isomorphisms  | **Ch 9** | |
 | W 10/24 | direct products  | | |
-| F 10/26 | normal subgroups  | | **Ch 6**: 5bd, 11ade, 16, 18 plus hw08.pdf  |
+| F 10/26 | normal subgroups  | | **HW 8. Ch 6**: 5bd, 11ade, 16, 18 plus hw08.pdf  |
 | M 10/29 | factor groups  | **Ch 10** | |
 | W 10/31 | homomorphisms and the kernel   | | |
-| F 11/2 | isomorphisms   | **Ch 11** | **Ch 9**: 22, 27, 31 plus hw09.pdf |   
+| F 11/2 | isomorphisms   | **Ch 11** | **HW 9. Ch 9**: 22, 27, 31 plus hw09.pdf |   
 ||||    **suggested**: 19, 21, 23, 41, 42, 45    | 
 
 ## November
@@ -66,14 +66,14 @@ You need not submit solutions to exercises marked "suggested."
 | --- | --- | --- | --- |
 | M 11/5 | first isomorphism theorem   | | |
 | W 11/7 | second isomorphism theorem  | |   |
-| F 11/9 |  midterm review   | | **Ch 10**: 1abe, 5, 10, 11, 13acd plus hw10.pdf |
+| F 11/9 |  midterm review   | | **HW 10. Ch 10**: 1abe, 5, 10, 11, 13acd plus hw10.pdf |
 | M 11/12 | **Midterm Exam 2** | focus: Ch 6, 9--11, 19 | |  
 | W 11/14 | correspondence theorem  | | |
 | F 11/16 | group actions: examples   | **Ch 14** | |
 | M 11/19 | Fall Break| no class  | | 
 | W 11/21 | Fall Break| no class  | | 
 | F 11/23 | Fall Break| no class  | | 
-| M 11/26 | group actions: orbits, stabilizers | | **Ch 11**: 7, 11, 17, 18, 19  |    
+| M 11/26 | group actions: orbits, stabilizers | | **HW 11. Ch 11**: 7, 11, 17, 18, 19  |    
 | W 11/28 | group actions: the class equation  | |
 |  F 11/30 | introducing rings || 5, 7 of  [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/math3140-Fall2018/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true) |
 |||| **suggested**: 1-4, 6 of [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/math3140-Fall2018/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true)  |
@@ -85,7 +85,7 @@ You need not submit solutions to exercises marked "suggested."
 | --- | --- | --- | --- |
 | M 12/3 | ideals, ring homomorphisms | **Ch 16** |   |
 | W 12/5 | polynomials   | | 
-| F 12/7 | maximal and prime ideals  | | **Ch 14**: 1, 2, 3, 9, 11 (justify the formula)  |
+| F 12/7 | maximal and prime ideals  | | **HW 12. Ch 14**: 1, 2, 3, 9, 11 (justify the formula)  |
 | M 12/10 | ring isomorphism theorems | |
 | W 12/12 |Review for final exam  | | |
 | W 12/19 | **FINAL EXAM: 1:30--4pm**  MUEN D439  |
