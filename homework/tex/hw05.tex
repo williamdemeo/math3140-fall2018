@@ -1,0 +1,137 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage[top=1.5cm, left=1.5cm,right=1.5cm,bottom=1.5cm]{geometry}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color,hyperref,enumerate,multicol}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+\usepackage{tikz}
+\usepackage{scalefnt}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\pagestyle{empty}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\meet}{\ensuremath{\wedge}}
+\newcommand{\Meet}{\ensuremath{\bigwedge}}
+\newcommand{\join}{\ensuremath{\vee}}
+\renewcommand{\emptyset}{\ensuremath{\varnothing}}
+\renewcommand{\subset}{\ensuremath{\subsetneq}}
+\newcommand{\boldemph}{\emph}
+\newcommand{\lcm}{\operatorname{lcm}}
+
+\begin{document}
+\thispagestyle{empty}
+
+\noindent \textbf{Math 3140 -- Homework 5} \hfill {\bf Due date:} Monday, 10/1\\[4pt]
+\noindent {\bf Required Exercises.  Chapter 4:  6, 12, 13, 28, 30, 35}.
+
+\begin{enumerate}
+
+%% 6 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 6.}]
+Find the order of every element in the symmetry group of the square,
+$D_4$.
+
+\bigskip
+
+%% 12 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 12.}]
+Find a cyclic group with exactly one generator.  Can you find cyclic
+groups with exactly two generators?  Four generators?  How about $n$
+generators?
+
+\bigskip
+
+%% 13 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 13.}]
+For $n \leq 20$, which groups $U(n)$ are cyclic?  Make a conjecture as
+to what is true in general.  Can you prove your conjecture?  
+
+\bigskip
+
+%% 28 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 28.}]
+If $a$ is an element of a group $G$, what is a generator for the
+subgroup $\langle a^m \rangle  \cap  \langle a^n \rangle $?
+ 
+
+\bigskip
+
+%% 30 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 30.}]
+Suppose $a$ and $b$ are elements of a group. Prove that if $|a|
+= m$ and $|b| = n$ with $\gcd(m,n) = 1$, then $\langle a \rangle  \cap
+\langle b \rangle  = \{ e \}$. 
+ 
+\bigskip
+
+%% 35 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 35.}]
+Prove that the subgroups of ${\mathbb Z}$ are exactly $n{\mathbb Z}$ for $n
+= 0, 1, 2, \ldots$. 
+
+\end{enumerate}
+
+\bigskip
+
+\bigskip
+
+\noindent {\bf Suggested Exercises}.  Chapter 4:  38; plus Exercise 47 (stated below).
+
+\medskip
+
+\begin{enumerate}
+
+%% 38 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 38.}]
+Prove that the order of an element in a cyclic group must divide
+the order of the  group. 
+
+\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 47.}]
+Explain why the Hasse diagram below cannot be the entire subgroup lattice of a group.\\
+(This exercise does not appear in the textbook.)
+
+\bigskip
+\newcommand{\dotsize}{1pt}
+%%
+%% To create nodes of lattices in a uniform and consistent way, we define
+\tikzstyle{lat} = [circle,draw,inner sep=\dotsize]
+%% To put a lattice node named "mynode" at the point (x,y)=(1,2) in the figure,
+%% put the following inside your tikzpicture block:
+%%     \node[lat] (mynode) at (1,2) {};
+
+% To scale all diagrams uniformly, change this setting:
+\newcommand{\figscale}{1.2}
+\begin{center}
+{  \scalefont{0.8}
+  \begin{tikzpicture}[scale=\figscale]
+    \draw (0.2,-.2) node {$e$};
+    \draw (0.2,3.2) node {$G$};
+    \draw (-1.2,1) node {$H$};
+    \draw (0.2,2.2) node {$J$};
+    \draw (1.2,1) node {$K$};
+  \node[lat] (bot) at (0,0) {};
+\node[lat] (top) at (0,3) {};
+\node[lat] (maxl) at (0,2) {};
+\node[lat] (a) at (-1,1) {};
+\node[lat] (c) at (1,1) {};
+\draw[semithick] (bot) -- (a) -- (maxl) -- (c) -- (bot);
+\draw[semithick] (maxl) -- (top);
+\end{tikzpicture}
+}
+\end{center}
+That is, $H$, $J$, and $K$ are supposed to be subgroups of $G$ such that $H\leq J$ and $K\leq J$; 
+moreover, there is supposed to be exactly one maximal subgroup of $G$, namely $J$; finally, $H \cap K = \langle e \rangle$.
+({\it Hint:} Does there exist an element of $G$ that does not belong to $J$?)
+\end{enumerate}
+
+
+\end{document}

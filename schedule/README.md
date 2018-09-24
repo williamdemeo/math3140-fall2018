@@ -44,6 +44,7 @@ You need not submit solutions to exercises marked "suggested."
 | Day & Date | Topic | Reading Due | Exercises Due |
 | --- | --- | --- | --- |
 | M 10/1 | symmetric and alternating groups  | | **HW 5. Ch 4**: 6, 12, 13, 28, 30, 35 | 
+| | | | **suggested**: 38, 47 (N.B. 47 is not in the book; see: hw04.pdf)  |
 | W 10/3 | symmetric and alternating groups  |  | 
 | F 10/5 | catch up and/or review   | | **HW 6. Ch 5**: 1bd, 3bd, 4, 6, 17, 18, 27  |
 |        | | | **suggested**: 29, 31, 32, 33 |  
