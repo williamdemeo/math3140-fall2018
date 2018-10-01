@@ -1,0 +1,212 @@
+\documentclass[12pt]{article}
+\usepackage{graphics}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{epsfig}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphpap}
+% \usepackage{pstricks}
+% \usepackage{pst-node}
+\usepackage{scalefnt}
+\usepackage{tikz}
+\newcommand{\order}[1]{\ensuremath{|#1|}}
+\newcommand{\units}[1]{\ensuremath{U(#1)}}
+\newcommand{\divides}{\ensuremath{\mid}}
+\newcommand{\<}{\ensuremath{\langle}}
+\renewcommand{\>}{\ensuremath{\rangle}}
+\newcommand{\eye}{\ensuremath{e}}
+
+\pagestyle{fancy} \lhead{\bf } \chead{\bf Cyclic Group Exercises: Answers}
+\rhead{} \lfoot{} \cfoot{\thepage} \rfoot{}
+\renewcommand{\headrulewidth}{0.6pt}
+\renewcommand{\footrulewidth}{0.6pt}
+\setlength{\headwidth}{6.5in}
+% Fuzz -------------------------------------------------------------------
+\hfuzz2pt % Don't bother to report over-full boxes if over-edge is < 2pt
+% Line spacing -----------------------------------------------------------
+\newlength{\defbaselineskip}
+\setlength{\defbaselineskip}{\baselineskip}
+\newcommand{\setlinespacing}[1]
+           {\setlength{\baselineskip}{#1 \defbaselineskip}}
+\newcommand{\doublespacing}{\setlength{\baselineskip}%
+                           {2.0 \defbaselineskip}}
+\newcommand{\singlespacing}{\setlength{\baselineskip}{\defbaselineskip}}
+\setlength{\textwidth}{6.5in} \setlength{\textheight}{9in}
+%\setlength{\parindent}{0mm}
+\setlength{\oddsidemargin}{.1in}
+\setlength{\evensidemargin}{.1in} \setlength{\voffset}{-.5in}
+\setlength{\topmargin}{0pt}
+% MATH -------------------------------------------------------------------
+\newcommand{\A}{{\cal A}}
+\newcommand{\h}{{\cal H}}
+\newcommand{\s}{{\cal S}}
+\newcommand{\W}{{\cal W}}
+\newcommand{\D}{\textbf{D}}
+\newcommand{\BH}{\mathbf B(\cal H)}
+\newcommand{\KH}{\cal  K(\cal H)}
+\newcommand{\Real}{\mathbb R}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C} [1]{{\mathcal #1}}
+\newcommand{\B} [1] {{\mathbf #1}}
+\newcommand{\Q }{{\mathbb Q}}
+\newcommand{\cm} {{\mathbb C}}
+\newcommand{\Z} {{\mathbb Z}}
+\newcommand{\PP} {{\mathbb P}}
+\newcommand{\N }{{\mathbb N}}
+\newcommand{\f} {{\mathbb F}}
+\newcommand{\gl}{\mathop{\rm GL} }
+\newcommand{\ord}{\mathop{\rm ord} }
+\newcommand{\lcm}{\mathop{\rm lcm} }
+\newcommand{\id}{\mathop{\rm id} }
+\newcommand{\GL}{\mathop{\rm GL} }
+\newcommand{\Ker}{\mathop{\rm Ker} }
+\newcommand{\Adj}{\mathop{\rm Adj} }
+\newcommand{\Imm}{\mathop{\rm Im} }
+\newcommand{\RR}{\mathbb R}
+\newcommand{\NN}{\mathbb N}
+\newcommand{\CC}{\mathbb C}
+\newcommand{\Complex}{\mathbb C}
+\newcommand{\Field}{\mathbb F}
+\newcommand{\RPlus}{[0,\infty)}
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\essnorm}[1]{\norm{#1}_{\text{\rm\normalshape ess}}}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\seq}[1]{\left<#1\right>}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\RE}{\operatorname{Re}}
+\newcommand{\IM}{\operatorname{Im}}
+\newcommand{\Poly}{{\cal{P}}(E)}
+\newcommand{\EssD}{{\cal{D}}}
+% THEOREMS ---------------------------------------------------------------
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}%[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+%
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition}
+%
+%\theoremstyle{remark}
+\newtheorem{rem}[thm]{Remark}
+\newtheorem{rems}[thm]{Remarks}
+\newtheorem{ex}[thm]{Example}
+\newtheorem{exs}[thm]{Examples}
+\begin{document}
+
+\begin{enumerate}
+\item \begin{enumerate}
+\item Generators are $g^k$ for $1\le k\le 4$.
+\item Generators are $g^k$ for $k\in\set{1,\,3,\,7,\,9}$.
+\item Generators are $g^{2k-1}$ for $1\le k\le 8$.
+\item Generators are $g^k$ for $k\in\set{1,\,3,\,7,\,9,\,11,\,13,\,17,\,19}$.
+\end{enumerate}
+\item \begin{enumerate}
+\item Generators of $\Z_5$ are $k$ for $1\le k\le 4$.
+\item Generators of $\Z_{10}$ are $k$ for $k\in\set{1,\,3,\,7,\,9}$.
+\item Generators of $\Z_{16}$ are $2k-1$ for $1\le k\le 8$.
+\item Generators of $\Z_{20}$ are $k$ for $k\in\set{1,\,3,\,7,\,9,\,11,\,13,\,17,\,19}$.
+\end{enumerate}
+\item \begin{enumerate}
+\item $\units{7}$ is cyclic with generator 3.
+\item $\units{12}$ is not cyclic: every nonidentity element has order 2, but
+$\units{12}$ has order 8.
+\item $\units{16}$ is not cyclic: the nonidentity elements have orders 2 or 4, but $\units{16}$ has order 8.
+\item $\units{11}$ is cyclic with generator 2.
+\end{enumerate}
+\item
+(a) $\order{g^2}=10$\qquad (b) $\order{g^8}=5$ \qquad (c) $\order{g^5}=4$\qquad (d)
+$\order{g^3}=20$
+\item \begin{enumerate}
+\item Subgroups:  $H_1=\langle e\rangle$, $H_2=\langle g^2\rangle$,
+$H_3=\langle g^4\rangle$, $H_4=G$.
+\item Subgroups: $H_1=\langle e\rangle$, $H_2=\langle g^2\rangle$,
+$H_3=\langle g^5\rangle$, $H_4=G$.
+\item Subgroups: $H_1=\langle e\rangle$, $H_2=\langle g^2\rangle$,
+$H_3=\langle g^3\rangle$, $H_4=\langle g^6\rangle$, 
+$H_5=\langle g^9\rangle $, $H_6=G$.
+\item Subgroups $H_1=\langle e\rangle$, $H_2=\langle g^p\rangle$,
+$H_3=\langle g^{p^2}\rangle$, $H_4=G$.
+\item Subgroups $H_1=\langle e\rangle$, $H_2=\langle g^p\rangle$,
+$H_3=\langle g^{q}\rangle$, $H_4=G$.
+\item Subgroups 
+$H_1=\langle e\rangle$, $H_2=\langle g^p\rangle$,
+$H_3=\langle g^{p^2}\rangle$, $H_4=\langle g^q\rangle$, 
+$H_5=\langle g^{pq}\rangle$,  $H_6=G$.
+\end{enumerate}
+%\item Done in class.
+\item \label{item:1}
+\begin{enumerate}
+\item $H=\langle a\rangle$
+\item $H=\langle a^2\rangle$
+\item $H=\langle a^d\rangle$
+\item $H=G$
+\end{enumerate}
+\end{enumerate}
+
+\newpage
+
+\pagestyle{fancy} \lhead{\bf } \chead{\bf Cyclic Group Exercises: Solutions}
+\rhead{} \lfoot{} \cfoot{\thepage} \rfoot{}
+
+\noindent Below are detailed solutions to a couple of the exercises.
+
+\medskip
+
+\noindent {\bf Exercise 6.} Part (c)\\
+\\
+{\bf Claim:}
+If $G = \<a\>$ and $x = x^m$, $y = a^k$, then the subgroup, 
+generated by $x$ and $y$, is 
+$H = \<x, y\> = \<a^d\>$, where $d = \gcd(m, k)$.
+\begin{proof}
+If $d = \gcd(m, k)$, then there exist integers $r, s$ such that 
+$d = rm + sk$.  Therefore, 
+$a^d = a^{rm + sk} = a^{rm + sk} = a^{rm}a^{sk} =  x^ry^s$. This proves that
+$a^d \in \<x, y\>$, so 
+$\<a^d\> \subseteq \<x, y\>$. On the other hand, 
+$d\divides m$, so
+$m = \alpha d$ and $x = a^m = a^{\alpha d} = (a^d)^\alpha$, so 
+$x\in \<a^d\>$.  
+Similarly, $d\divides k$, so $k = \beta d$ 
+and $y = a^k = a^{\beta d} = (a^d)^\beta$, so
+$y\in \<a^d\>$.  Therefore, $\<x, y\> \subseteq \<a^d\>$.
+\end{proof}
+
+\bigskip
+
+\noindent {\bf Exercise 5.} Part (f)\\
+\\
+If $\order{g}=p^2q$, then the subgroups of $G= \<g\>$ are
+\[
+G, \quad
+\<g^p\>, \quad 
+\<g^{p^2}\>, \quad 
+\<g^q\>, \quad 
+\<g^{pq}\>, \quad 
+\<g^{p^2q}\> = \<e\>,
+\]
+and we have 
+$\<g^m\> \leq \< g^k\>$ if and only if $k\divides m$.  Therefore, the subgroup
+lattice is given by the Hasse diagram below.
+
+\begin{center}
+\begin{tikzpicture}[scale=1]
+  \node (1) at (0,0) {$\langle \eye \rangle$}; 
+  \node (6) at (2,2) {$\langle g^{pq} \rangle$}; 
+  \node (4) at (-2,2) {$\langle g^{p^2} \rangle$}; 
+  \node (2) at (0,4) {$\langle g^p \rangle$}; 
+  \node (3) at (4,4) {$\langle g^q \rangle$}; 
+  \node (G) at (2,6) {$\langle g \rangle$}; 
+
+  \draw (1) to (6) to (2) to (4) to (1);
+  \draw (6) to (3) to (G) to (2) to (4);
+
+\end{tikzpicture}
+\end{center}
+
+\end{document}

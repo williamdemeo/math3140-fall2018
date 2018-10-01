@@ -1,0 +1,179 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{scalefnt}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=black]{hyperref}
+%% \usepackage{url}
+\usepackage{tikz}
+\pagestyle{fancy} \lhead{\bf Math 3140} \chead{\bf }
+\rhead{\bf Definitions} \lfoot{} \cfoot{\thepage} \rfoot{}
+\renewcommand{\headrulewidth}{0.6pt}
+\renewcommand{\footrulewidth}{0.6pt}
+\setlength{\headwidth}{6.5in}
+% Fuzz -------------------------------------------------------------------
+\hfuzz2pt % Don't bother to report over-full boxes if over-edge is < 2pt
+% Line spacing -----------------------------------------------------------
+\newlength{\defbaselineskip}
+\setlength{\defbaselineskip}{\baselineskip}
+\newcommand{\setlinespacing}[1]
+           {\setlength{\baselineskip}{#1 \defbaselineskip}}
+           \newcommand{\doublespacing}{\setlength{\baselineskip}%
+             {2.0 \defbaselineskip}}
+           \newcommand{\singlespacing}{\setlength{\baselineskip}{\defbaselineskip}}
+           \setlength{\textwidth}{6.5in} \setlength{\textheight}{9in}
+           \setlength{\oddsidemargin}{.1in}
+           \setlength{\evensidemargin}{.1in} \setlength{\voffset}{-.5in}
+           \setlength{\topmargin}{0pt}
+           \newcommand{\boldemph}[1]{#1}
+           \newcommand{\defn}[1]{#1}
+           \newcommand\<{\ensuremath{\langle}}
+           \renewcommand\>{\ensuremath{\rangle}}
+           \newcommand\meet{\ensuremath{\wedge}}
+           \newcommand\join{\ensuremath{\vee}}
+           \newcommand\bS{\ensuremath{\mathbf{S}}}
+           \newcommand\bA{\ensuremath{\mathbf{A}}}
+           \newcommand\bR{\ensuremath{\mathbf{R}}}
+\begin{document}
+
+\begin{itemize}
+\item \href{http://en.wikipedia.org/wiki/Cartesian_product}{Cartesian product}
+\item \href{http://en.wikipedia.org/wiki/Direct_product}{\defn{direct product}} and \defn{direct power}
+\item \href{http://en.wikipedia.org/wiki/Finitary_relation}{relation}
+\item \href{http://en.wikipedia.org/wiki/Function_(mathematics)}{function}
+\item \href{http://en.wikipedia.org/wiki/Operation_(mathematics)}{operation} and 
+  \href{http://en.wikipedia.org/wiki/Finitary}{finitary operation}
+\item \href{http://en.wikipedia.org/wiki/Structure_(mathematical_logic)#Domain}{universe} or domain
+\item \href{http://en.wikipedia.org/wiki/Arity}{arity} of relation, function, or operation 
+  (e.g., 
+  \href{http://en.wikipedia.org/wiki/Arity#Nullary}{nullary}, 
+  \href{http://en.wikipedia.org/wiki/Arity#Unary}{unary}, 
+  \href{http://en.wikipedia.org/wiki/Arity#Binary}{binary}, 
+  \href{http://en.wikipedia.org/wiki/Arity#Ternary}{ternary},
+  \href{http://en.wikipedia.org/wiki/Arity#n-ary}{$n$-ary})
+\item $n$-ary relation on a set $X$ (notation: $\rho \subseteq X^n$)
+\item $n$-ary function from set $X$ to set $Y$ (notation: $f: X^n \rightarrow Y$)
+\item $n$-ary operation on a set $X$ (notation: $f: X^n \rightarrow X$)
+\item \href{http://en.wikipedia.org/wiki/Binary_relation#Relations_over_a_set}{properties} binary relations might satisfy: \boldemph{reflexive},
+  \boldemph{(anti)symmetric}, \boldemph{transitive}
+\item properties of functions (e.g., 
+\href{http://en.wikipedia.org/wiki/Surjective_function}{onto}, 
+\href{http://en.wikipedia.org/wiki/Injective_function}{one-to-one}, 
+\href{http://en.wikipedia.org/wiki/Bijection}{bijective})
+\item properties of binary operations 
+(e.g., \href{http://en.wikipedia.org/wiki/Commutative_property}{commutative}, 
+  \href{http://en.wikipedia.org/wiki/Associative_property}{associative}, 
+  \href{http://en.wikipedia.org/wiki/Idempotence}{idempotent})
+\item \href{http://en.wikipedia.org/wiki/Equivalence_relation}{equivalence relation},
+\href{http://en.wikipedia.org/wiki/Equivalence_class}{equivalence class}
+\item \href{http://en.wikipedia.org/wiki/Partition_of_a_set}{partition}
+\item \href{http://en.wikipedia.org/wiki/Congruence_relation}{congruence modulo $n$}
+\item \href{http://en.wikipedia.org/wiki/Partially_ordered_set#Formal_definition}{partial order}, 
+\href{http://en.wikipedia.org/wiki/Total_order}{total order},
+\href{http://en.wikipedia.org/wiki/Well-order}{well-order}
+\item \href{http://en.wikipedia.org/wiki/Greatest_common_divisor}{greatest common divisor}, 
+\href{http://en.wikipedia.org/wiki/Least_common_multiple}{least common multiple}
+\item \href{http://en.wikipedia.org/wiki/Coprime_integers}{relatively prime}
+\item \href{http://en.wikipedia.org/wiki/Prime_number}{prime number}
+\item \href{http://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic}{prime factorization}
+\item \href{http://en.wikipedia.org/wiki/Power_set}{power set}
+\item \href{http://en.wikipedia.org/wiki/Algebraic_structure}{algebraic structure}, 
+  $\<A, \mathcal{F}\>$, with universe $A$ and operations $\mathcal{F}$ 
+\item algebraic structure \href{http://en.wikipedia.org/wiki/Outline_of_algebraic_structures#Types_of_algebraic_structures}{types} and 
+\href{http://en.wikipedia.org/wiki/Outline_of_algebraic_structures}{examples}:
+  \begin{itemize}
+  \item \href{http://en.wikipedia.org/wiki/Magma_(algebra)}{magma}
+  \item \href{http://en.wikipedia.org/wiki/Semigroup}{semigroup}
+  \item \href{http://en.wikipedia.org/wiki/Monoid}{monoid}
+  \item \href{http://en.wikipedia.org/wiki/Group_(mathematics)}{group} %\footnotemark[\ref{note1}]
+  \end{itemize}
+
+
+\item \href{http://en.wikipedia.org/wiki/Structure_(mathematical_logic)}{relational structure}, 
+  $\<A, \mathcal{R}\>$, with universe $A$ and relations $\mathcal{R}$ 
+\item relational structure examples: 
+  \begin{itemize}
+  \item \href{http://en.wikipedia.org/wiki/Partially_ordered_set}{partially ordered set} (poset) 
+    \item \href{http://en.wikipedia.org/wiki/Graph_(mathematics)}{graph}
+  \end{itemize}
+
+(\emph{Many} more examples at 
+\href{http://www.math.chapman.edu/~jipsen/structures/doku.php/index.html}{www.math.chapman.edu/~jipsen/structures/doku.php/index.html})
+
+\item \defn{subuniverse generated by a set} $S$, denoted $\<S\>$
+\item \href{http://en.wikipedia.org/wiki/Subalgebra}{\defn{subalgebra}}
+\item \href{http://en.wikipedia.org/wiki/Identity_element}{identity element}
+\item \href{http://en.wikipedia.org/wiki/Inverse_element}{inverse element} and inverse operation
+\item \href{http://en.wikipedia.org/wiki/Abelian_group}{abelian group}
+\item \href{http://en.wikipedia.org/wiki/Cayley_table}{Cayley table}
+\item \href{http://en.wikipedia.org/wiki/Finite_group}{finite group}
+\item \href{http://en.wikipedia.org/wiki/Subgroup}{subgroup}, proper subgroup, trivial subgroup
+\item \href{http://en.wikipedia.org/wiki/Order_(group_theory)}{order} (of a group or subgroup)
+\item order (of a group element)
+\item $g^n$ and $g^{-n}$ (for $g$ an element of a multiplicative group)
+\item $ng$ and $-ng$ (for $g$ an element of an additive group)
+\item \href{http://en.wikipedia.org/wiki/Cyclic_group}{cyclic group}
+\item \href{http://en.wikipedia.org/wiki/Generating_set_of_a_group}{generators} (of a group),
+generator (of a cyclic group)
+\item \href{http://en.wikipedia.org/wiki/Symmetry_in_mathematics}{symmetry}, rigid motion
+\item \href{http://en.wikipedia.org/wiki/Permutation}{permutation} (and two ways to write them)
+\item \href{http://en.wikipedia.org/wiki/Cycle_(mathematics)}{cycle}, length of a cycle
+\item \href{http://en.wikipedia.org/wiki/Cycle_(mathematics)#Transpositions}{transposition}
+\item \href{http://en.wikipedia.org/wiki/Parity_of_a_permutation}{parity of a permutation} (even/odd)
+\item \href{http://en.wikipedia.org/wiki/Examples_of_groups}{examples of groups}: 
+$\mathbb{Z}_n$, $U(n)$, $S_n$, $A_n$, $D_4$
+\item \href{http://en.wikipedia.org/wiki/List_of_order_theory_topics#Distinguished_elements_of_partial_orders}{distinguished elements of partial orders}: 
+  \begin{itemize}
+  \item 
+\boldemph{upper bound} (of a subset of a poset, lattice, or join semilattice)
+\item \boldemph{least upper bound} or \boldemph{supremum} or join
+\item \boldemph{lower bound}
+\item \boldemph{greatest lower bound} or \boldemph{infimum} or meet
+  \end{itemize}
+\item \href{http://en.wikipedia.org/wiki/Lattice_(order)}{\boldemph{lattice}}, $\<L, \meet, \join\>$
+\item \href{http://en.wikipedia.org/wiki/Semilattice}{\boldemph{semilattice}}, $\<S, \cdot\>$
+%% \item \boldemph{meet semilattice}, $\<S, \meet\>$
+%% \item \boldemph{join semilattice}, $\<S, \join\>$
+\item \href{http://en.wikipedia.org/wiki/Join_and_meet}{joins and meets}:
+  \begin{itemize}
+  \item 
+      {\boldemph{join}} (of elements), $a\join b$
+\item \boldemph{meet} (of elements), $a\meet b$
+\item \boldemph{join} (of a subset), $\bigvee T$
+\item \boldemph{meet} (of a subset), $\bigwedge T$
+\item \boldemph{largest element} (of a poset; need not exist)
+\item \boldemph{smallest element} (of a poset; need not exist)
+  \end{itemize}
+\item \href{http://en.wikipedia.org/wiki/Monotonic_function#order-preserving}{order-preserving function}
+\item \href{http://en.wikipedia.org/wiki/Lattice_(order)#Morphisms_of_lattices}{lattice homomorphism}
+\item \href{http://en.wikipedia.org/wiki/Coset}{coset}, 
+\href{http://en.wikipedia.org/wiki/Coset#General_properties}{\boldemph}{coset representative}
+\item \href{http://en.wikipedia.org/wiki/Index_of_a_subgroup}{\boldemph{index} of a subgroup}
+%% \item \boldemph{Euler} $\varphi$ \boldemph{function}
+\item \href{http://en.wikipedia.org/wiki/Conjugacy_class#Definition}{\boldemph{conjugate}} 
+elements of a group
+\item \href{http://en.wikipedia.org/wiki/Hasse_diagram}{\defn{Hasse diagram}}
+\item \href{http://en.wikipedia.org/wiki/Homomorphism#Specific_kinds_of_homomorphisms}{types of homomorphisms}: 
+  \begin{itemize}
+  \item \href{http://en.wikipedia.org/wiki/Homomorphism#Definition}{\defn{homomorphism}}
+  \item \href{http://en.wikipedia.org/wiki/Monomorphism}{\defn{monomorphism}}
+  \item \href{http://en.wikipedia.org/wiki/Epimorphism}{\defn{epimorphism}}
+  \item \href{http://en.wikipedia.org/wiki/Isomorphism}{\defn{isomorphism}}
+  \item \href{http://en.wikipedia.org/wiki/Endomorphism}{\defn{endomorphism}}
+  \item \href{http://en.wikipedia.org/wiki/Automorphism}{\defn{automorphism}}
+  \end{itemize}
+%% \item \href{http://en.wikipedia.org/wiki/Group_homomorphism}{group homomorphism}
+\item \href{http://en.wikipedia.org/wiki/Kernel_(set_theory)}{\defn{kernel} of a function} 
+(an equivalence relation)
+\item \href{http://en.wikipedia.org/wiki/Kernel_(algebra)#Group_homomorphisms}{\defn{kernel} 
+of a group homomorphism} (a normal subgroup)
+\item \href{http://en.wikipedia.org/wiki/Kernel_(algebra)#Universal_algebra}{kernel of a homomorphism} 
+(a \href{http://en.wikipedia.org/wiki/Congruence_relation}{congruence relation})
+\item \href{http://en.wikipedia.org/wiki/Quotient_group}{quotient group}
+\item \href{http://en.wikipedia.org/wiki/Quotient_algebra}{\defn{quotient algebra}} 
+\item \href{http://en.wikipedia.org/wiki/Isomorphism_theorem#Groups}{First Isomorphism theorem for groups}
+\item \href{http://en.wikipedia.org/wiki/Isomorphism_theorem#General}{First Isomorphism theorem} (general)
+\end{itemize}
+\end{document}
