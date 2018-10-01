@@ -1,0 +1,219 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage[top=2cm, left=2cm,right=2cm,bottom=2cm]{geometry}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color,hyperref,enumerate,multicol}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+            
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\pagestyle{empty}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\meet}{\ensuremath{\wedge}}
+\newcommand{\Meet}{\ensuremath{\bigwedge}}
+\newcommand{\join}{\ensuremath{\vee}}
+\renewcommand{\emptyset}{\ensuremath{\varnothing}}
+\renewcommand{\subset}{\ensuremath{\subsetneq}}
+\newcommand{\boldemph}{\emph}
+\newcommand{\lcm}{\operatorname{lcm}}
+
+\newcommand{\probskip}{\vskip1cm}
+
+\begin{document}
+\thispagestyle{empty}
+
+\noindent \textbf{Math 3140} \hfill {\bf Homework 6}\\[4pt]
+\noindent {\bf Chapter 5:}   1bd, 3bd, 4, 6, 17, 18, 27.\hfill {\bf Due date:} Friday, 10/05\\  
+   Additional suggested exercises: 29, 31, 32, 33.  \\
+
+
+\medskip
+
+
+\begin{enumerate}[{\bf 1.}]
+
+%% 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item %1
+Write the following permutations in cycle notation.
+\begin{multicols}{2}
+\begin{enumerate}
+ 
+\item
+\[
+\begin{pmatrix}
+1 & 2 & 3 & 4 & 5 \\
+2 & 4 & 1 & 5 & 3
+\end{pmatrix}
+\]
+
+\item
+\[
+\begin{pmatrix}
+1 & 2 & 3 & 4 & 5 \\
+4 & 2 & 5 & 1 & 3
+\end{pmatrix}
+\]
+
+\item
+\[
+\begin{pmatrix}
+1 & 2 & 3 & 4 & 5 \\
+3 & 5 & 1 & 4 & 2
+\end{pmatrix}
+\]
+
+\item
+\[
+\begin{pmatrix}
+1 & 2 & 3 & 4 & 5 \\
+1 & 4 & 3 & 2 & 5
+\end{pmatrix}
+\]
+
+\end{enumerate}
+\end{multicols}
+
+\probskip
+ 
+%% 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 3.}] 
+Express the following permutations as products of transpositions and
+identify them as even or odd.  (Only (b) and (d) are required.)
+\begin{multicols}{2}
+\begin{enumerate}
+ 
+\item
+$(14356)$
+
+ \item
+$(156)(234)$
+ 
+ \item
+$(1426)(142)$
+ 
+ \item
+$(17254)(1423)(154632)$
+ 
+ \item
+$(142637)$
+ 
+\end{enumerate}
+\end{multicols}
+
+\probskip
+ 
+%% 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 4.}] 
+Find $(a_1, a_2, \ldots, a_n)^{-1}$.
+
+\probskip
+ 
+%% 6 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 6.}] 
+Find all of the subgroups in $A_4$. What is the order of each
+subgroup? 
+ 
+\probskip
+
+%% 17 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 17.}] 
+Prove that $S_n$ is nonabelian for $n \geq 3$.
+
+\probskip
+ 
+%% 18 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 18.}] 
+Prove that $A_n$ is nonabelian for $n \geq 4$.
+
+\probskip
+ 
+%% 27 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 27.}] 
+Let $G$ be a group and define a map $\lambda_g : G \rightarrow G$ by
+$\lambda_g(a) = g a$.  Prove that $\lambda_g$ is a permutation of $G$.
+
+\newpage
+
+%   Additional suggested exercises: 29, 31, 32, 33.  \\
+\noindent {\bf Additional suggested exercises:} 29, 31, 32, 33.  
+\\
+
+\item[{\bf 29.}]  % 29
+Recall that the \boldemph{center}\index{Group!center of} of a group $G$ is
+\[
+Z(G) = \{ g \in G : \mbox{$gx = xg$ for all $x \in G$} \}.
+\]
+Find the center of $D_8$. What about the center of $D_{10}$? What is
+the center of $D_n$? 
+ 
+\probskip
+ 
+ 
+\item[{\bf 31.}]  % 31
+For $\alpha$ and $\beta$ in $S_n$, define $\alpha \sim \beta$ if there
+exists an $\sigma \in S_n$ such that 
+$\sigma \alpha \sigma^{-1} = \beta$.  Show that $\sim$ is an equivalence
+relation on $S_n$. 
+ 
+\probskip
+ 
+ 
+\item[{\bf 32.}]  % 32
+Let $\sigma \in S_X$. If $\sigma^n(x) = y$, we will say that 
+$x \sim y$. 
+\begin{enumerate}
+ 
+ \item
+Show that $\sim$ is an equivalence relation on $X$.
+ 
+ \item
+If $\sigma \in A_n$ and $\tau \in S_n$, show that 
+$\tau^{-1} \sigma \tau \in A_n$. 
+ 
+\item
+Define the \boldemph{orbit}\index{Orbit} of $x \in X$ under $\sigma \in S_X$ to
+be the set  
+\[
+{\mathcal O}_{x, \sigma} = \{ y : x \sim y  \}.
+\]
+Compute the orbits of $\alpha, \beta, \gamma$ where
+\begin{align*}
+\alpha & = (1254) \\
+\beta & = (123)(45)\\
+\gamma & = (13)(25).
+\end{align*}
+ 
+ \item
+If ${\mathcal O}_{x, \sigma} \cap {\mathcal O}_{y, \sigma} \neq \emptyset$,
+prove that ${\mathcal O}_{x, \sigma} = {\mathcal O}_{y, \sigma}$.  The orbits
+under a permutation $\sigma$ are the equivalence classes corresponding
+to the equivalence relation $\sim$.
+ 
+ 
+\item
+A subgroup $H$ of $S_X$ is \boldemph{
+transitive}\index{Subgroup!transitive} if for every $x, y \in X$, 
+there exists a $\sigma \in H$ such that $\sigma(x) =y$. Prove that
+$\langle \sigma \rangle$ is transitive if and only if 
+${\mathcal O}_{x, \sigma} = X$ for some $x \in X$. 
+ 
+ 
+\end{enumerate}
+ 
+\probskip
+ 
+ 
+\item[{\bf 33.}]  %33
+Let $\alpha \in S_n$ for $n \geq 3$. If $\alpha \beta = \beta \alpha$
+for all $\beta \in S_n$, prove that $\alpha$ must be the identity
+permutation; hence, the center of $S_n$ is the trivial subgroup. 
+ 
+ 
+\end{enumerate}
+\end{document}
