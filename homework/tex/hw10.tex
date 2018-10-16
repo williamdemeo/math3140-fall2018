@@ -1,0 +1,150 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage[top=2cm, left=2cm,right=2cm,bottom=2cm]{geometry}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{scalefnt}
+\usepackage{tikz}
+\usepackage{color,hyperref,enumerate,multicol}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+            
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\pagestyle{empty}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\bL}{\ensuremath{\mathbf{L}}}
+\newcommand{\bP}{\ensuremath{\mathbf{P}}}
+\newcommand{\bQ}{\ensuremath{\mathbf{Q}}}
+\newcommand{\bA}{\ensuremath{\mathbf{A}}}
+\newcommand{\bB}{\ensuremath{\mathbf{B}}}
+\newcommand{\bG}{\ensuremath{\mathbf{G}}}
+\newcommand{\bH}{\ensuremath{\mathbf{H}}}
+\newcommand{\invG}{\ensuremath{\operatorname{inv}^{\bG}}}
+\newcommand{\invH}{\ensuremath{\operatorname{inv}^{\bH}}}
+\newcommand{\meet}{\ensuremath{\wedge}}
+\newcommand{\Meet}{\ensuremath{\bigwedge}}
+\newcommand{\<}{\ensuremath{\langle}}
+\renewcommand{\>}{\ensuremath{\rangle}}
+\newcommand{\join}{\ensuremath{\vee}}
+\renewcommand{\emptyset}{\ensuremath{\varnothing}}
+\renewcommand{\subset}{\ensuremath{\subsetneq}}
+\newcommand{\boldemph}{\emph}
+\newcommand{\lcm}{\ensuremath{\operatorname{lcm}}}
+\newcommand{\Sym}{\ensuremath{\operatorname{Sym}}}
+%\newcommand{\bG}{\ensuremath{\mathbf{G}}}
+
+\newcommand{\probskip}{\vskip1cm}
+\usepackage{xspace}
+\newcommand{\subject}{MATH\xspace}
+\newcommand{\coursenumber}{3140\xspace}
+\newcommand{\semester}{Fall 2018\xspace}
+
+\begin{document}
+\thispagestyle{empty}
+
+\noindent \textbf{\subject \coursenumber Homework 10}
+
+\smallskip
+
+\noindent {\bf Exercises.} 1 below plus Judson Ch 10. 1abe, 5, 10, 11, 13acd.\\
+{\bf Due date:} Friday, 11/09
+
+
+\medskip
+
+\begin{enumerate}
+\item[{\bf 1.}] Let $\bG = \<G, \cdot, ^{-1}, e\>$ be a finite group of order $n$.  
+Take the set $G$ (the elements of $\bG$) and consider the group of all
+permutations of these elements.  This group is sometimes denoted by $\Sym(G)$;
+note that it is isomorphic to the symmetric group $S_n$ of permutations of
+an $n$-element set.
+Now fix an element $a\in G$ and recall that the function
+$\lambda_a: G \rightarrow G$, defined by $\lambda_a(g) = a\cdot g$, is a
+permutation of the set $G$.  That is, $\lambda_a$ belongs to the
+permutation group $\Sym(G)$.
+\begin{enumerate}[(a)]
+\item 
+Prove that the function $\lambda: G \rightarrow \Sym(G)$ is a group
+homomorphism.  
+\medskip
+\item What is the kernel of $\lambda$?\footnote{Recall that the kernel of a function $f: X \rightarrow Y$ is the subset of
+  $X\times X$ defined by 
+\[
+\ker f = \{(x_1,x_2) : f(x_1) = f(x_2)\}.
+\]
+As you have already proved, the kernel is an equivalence relation on $X$.}
+\medskip
+\item Let $N$ denote the equivalence class of $\ker\lambda$ that contains the
+  identity element $e$ of $G$.  Prove that $N$ is a normal subgroup of $G$.
+\end{enumerate}
+
+\vfill
+
+%% 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 10.1}] For each of the following groups $G$, determine whether $H$ is a normal
+subgroup of $G$. If $H$ is a normal subgroup, write out a Cayley table
+for the factor group $G/H$.
+\begin{enumerate}
+\item[(a)]
+$G = S_4$ and $H = A_4$
+ \item[(b)]
+$G = A_5$ and $H = \{ (1), (123), (132) \}$
+%%  \item
+%% $G = S_4$ and $H = D_4$
+%%  \item
+%% $G = Q_8$ and $H = \{ 1, -1, I, -I \}$
+\item[(e)]
+$G = {\mathbb Z}$ and $H = 5 {\mathbb Z}$
+\end{enumerate}
+
+\vfill
+
+\item[{\bf 10.5.}]
+Show that the intersection of two normal subgroups is a normal
+subgroup. 
+ 
+\vfill
+
+\item[{\bf 10.10.}]
+Let $H$ be a subgroup of index 2 of a group $G$. Prove that $H$ must
+be a normal subgroup of $G$. Conclude that $S_n$ is not simple for $n \geq 3$.
+
+\vfill
+
+\item[{\bf 10.11.}]
+If a group $G$ has exactly one subgroup $H$ of order $k$, prove that
+$H$ is normal in $G$. 
+
+\vfill
+
+\item[{\bf 10.13.}]
+Recall that the {\bf center} of a group $G$ is the set 
+\[
+Z(G) = \{ x \in G : xg = gx \text{ for all $g \in G$ } \}.
+\]
+\begin{enumerate}
+\item[(a)]
+Calculate the center of $S_3$.
+%%  \item
+%% Calculate the center of $GL_2 ( {\mathbb R} )$.
+\item[(c)]
+Show that the center of any group $G$ is a normal subgroup of $G$. 
+ \item[(d)]
+If $G / Z(G)$ is cyclic, show that $G$ is abelian.\footnote{Hint: Let $Z := Z(G)$.  If
+  $G/Z$ is cyclic then there exists $x\in G$ such that for each $a\in G$ 
+  there exists $m\in \N$ such that $aZ = x^mZ$.
+  Fix $a, b\in G$ and show $ab = ba$ using the fact that $aZ = x^mZ$ and
+  $bZ = x^nZ$ for some $m$ and $n$.}
+\end{enumerate}
+\vfill 
+
+\end{enumerate}
+
+
+
+\end{document}
