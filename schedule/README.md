@@ -66,7 +66,7 @@ You need not submit solutions to exercises marked "suggested."
 | --- | --- | --- | --- |
 | M 11/5 | first isomorphism theorem   | | |
 | W 11/7 | second isomorphism theorem  | |   |
-| F 11/9 |  midterm review   | | **HW 10. Ch 10**: 1abe, 5, 10, 11, 13acd plus hw10.pdf |
+| F 11/9 |  midterm review   | | **HW 10. Ch 10**: 1abe, 5, 10, 11, 13acd plus 1 in hw10.pdf |
 | M 11/12 | **Midterm Exam 2** | focus: Ch 6, 9--11, 19 | |  
 | W 11/14 | correspondence theorem  | | |
 | F 11/16 | group actions: examples   | **Ch 14** | |
