@@ -59,8 +59,7 @@ You need not submit solutions to exercises marked "suggested."
 | F 10/26 | normal subgroups  | | **HW 8. Ch 6**: 5bd, 11ade, 16, 18 plus hw08.pdf  |
 | M 10/29 | factor groups  | **Ch 10** | |
 | W 10/31 | homomorphisms and the kernel   | | |
-| F 11/2 | isomorphisms   | **Ch 11** | **HW 9. Ch 9**: 22, 27, 31 plus hw09.pdf |   
-||||    **suggested**: 19, 21, 23, 41, 42, 45    | 
+| F 11/2 | isomorphisms   | **Ch 11** | **HW 9. Ch 9**: see hw09.pdf |   
 
 ## November
 | Day & Date | Topic | Reading Due | Exercises Due |
