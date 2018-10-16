@@ -53,7 +53,7 @@ You need not submit solutions to exercises marked "suggested."
 | F 10/12 | posets, lattices   | | |
 | M 10/15 | lattice isomorphisms, order preserving maps  | **Ch 19** | |
 | W 10/17 | cosets  | **Ch 6** | |
-| F 10/19 | Lagrange's Theorem  | | **HW 7. Ch 19**: 3, 14, 20 plus handout hw07.pdf |
+| F 10/19 | Lagrange's Theorem  | | **HW 7. Ch 19**: 3, 13, 19 plus first two in hw07.pdf |
 | M 10/22 | isomorphisms  | **Ch 9** | |
 | W 10/24 | direct products  | | |
 | F 10/26 | normal subgroups  | | **HW 8. Ch 6**: 5bd, 11ade, 16, 18 plus hw08.pdf  |
