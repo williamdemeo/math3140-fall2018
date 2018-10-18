@@ -1,0 +1,112 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage[top=2cm, left=2cm,right=2cm,bottom=2cm]{geometry}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{amsmath}
+\usepackage{xspace}
+\usepackage{amssymb}
+\usepackage{color,hyperref,enumerate,multicol}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+            
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\pagestyle{empty}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\meet}{\ensuremath{\wedge}}
+\newcommand{\Meet}{\ensuremath{\bigwedge}}
+\newcommand{\join}{\ensuremath{\vee}}
+\renewcommand{\emptyset}{\ensuremath{\varnothing}}
+\renewcommand{\subset}{\ensuremath{\subsetneq}}
+\newcommand{\boldemph}{\emph}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\subject}{MATH\xspace}
+\newcommand{\coursenumber}{3140\xspace}
+\newcommand{\semester}{Fall 2018\xspace}
+\newcommand{\probskip}{\vskip1cm}
+
+\begin{document}
+\thispagestyle{empty}
+
+\noindent \textbf{\subject \coursenumber Homework 8}
+
+\medskip
+
+\noindent {\bf Exercises:} 1 below and Judson: 6.5bd, 6.11ade, 6.14, 6.16, 6.18\\
+{\bf Due date:} Friday, 10/26
+
+\bigskip
+
+\begin{enumerate}[{\bf 1.}]
+
+%% 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item
+Prove or disprove the following: 
+\begin{enumerate}
+\item 
+There exists a group $G$ of order $|G| = 8$ with an element
+$g \in G$ of order $|g|=3$.
+
+\item
+If $H$ and $K$ are subgroups of a group $G$ with $|H|=2$ and $|K|=3$, 
+  then $|G|\geq 6$.
+
+\item
+Every subgroup of the integers has finite index.
+
+\item 
+Every subgroup of the integers has finite order.
+\end{enumerate}
+\probskip
+
+%% 5 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 6.5.}]
+In each case below, list the left cosets of $H$ in $G$.
+\begin{enumerate}
+\item[{\bf b.}]
+$G = U(8)$, $H = \langle 3 \rangle$.
+\item[{\bf c.}]
+$G = S_4$, $H = A_4$.
+\end{enumerate}
+
+\probskip
+
+%% 11 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 6.11.}] 
+Let $H$ be a subgroup of a group $G$ and suppose that $g_1, g_2 \in G$.  Prove
+that the following conditions are equivalent: 
+\begin{enumerate}
+ 
+\item[(a)]
+$g_1 H = g_2 H$
+ 
+\item[(d)]
+$g_2 \in g_1 H$
+ 
+\item[(e)]
+$g_1^{-1} g_2 \in H$
+\end{enumerate}
+
+\probskip
+
+\item[{\bf 6.14}] Suppose that $g^n = e$. Show that the order of $g$ divides $n$.
+
+\probskip
+
+
+%% 16 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 6.16.}] 
+If $|G| = 2n$, prove that the number of elements of order 2 is odd.  Use this
+result to show that $G$ must contain a subgroup of order 2. 
+
+\probskip
+
+%% 18 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 6.18.}] 
+If $[G : H] = 2$, prove that $gH = Hg$.
+
+\end{enumerate}
+\end{document}
