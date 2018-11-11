@@ -1,0 +1,112 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage[top=2cm, left=2cm,right=2cm,bottom=2cm]{geometry}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{scalefnt}
+\usepackage{tikz}
+\usepackage{color,hyperref,enumerate,multicol}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+            
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\pagestyle{empty}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\bL}{\ensuremath{\mathbf{L}}}
+\newcommand{\bP}{\ensuremath{\mathbf{P}}}
+\newcommand{\bQ}{\ensuremath{\mathbf{Q}}}
+\newcommand{\bA}{\ensuremath{\mathbf{A}}}
+\newcommand{\bB}{\ensuremath{\mathbf{B}}}
+\newcommand{\bG}{\ensuremath{\mathbf{G}}}
+\newcommand{\bH}{\ensuremath{\mathbf{H}}}
+\newcommand{\invG}{\ensuremath{\operatorname{inv}^{\bG}}}
+\newcommand{\invH}{\ensuremath{\operatorname{inv}^{\bH}}}
+\newcommand{\meet}{\ensuremath{\wedge}}
+\newcommand{\Meet}{\ensuremath{\bigwedge}}
+\newcommand{\<}{\ensuremath{\langle}}
+\renewcommand{\>}{\ensuremath{\rangle}}
+\newcommand{\join}{\ensuremath{\vee}}
+\renewcommand{\emptyset}{\ensuremath{\varnothing}}
+\renewcommand{\subset}{\ensuremath{\subsetneq}}
+\newcommand{\boldemph}{\emph}
+\newcommand{\lcm}{\ensuremath{\operatorname{lcm}}}
+\newcommand{\Sym}{\ensuremath{\operatorname{Sym}}}
+%\newcommand{\bG}{\ensuremath{\mathbf{G}}}
+
+\newcommand{\probskip}{\vskip5mm}
+\usepackage{xspace}
+\newcommand{\subject}{MATH\xspace}
+\newcommand{\coursenumber}{3140\xspace}
+\newcommand{\semester}{Fall 2018\xspace}
+\newcommand{\exercises}{Ch.~11. 7, 11, 17, 18, 19.}
+\newcommand{\due}[1]{{\bf Due:} #1}
+\newcommand{\hwheading}{\textbf{\subject \coursenumber -- Homework 11 \\ \due{Monday, 26 November 2018}}}
+\begin{document}
+\thispagestyle{empty}
+
+\noindent \hwheading
+
+\noindent {\bf Exercises:} \exercises 
+
+\bigskip
+
+\begin{enumerate}
+%% 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[{\bf 11.7}] 
+In the group ${\mathbb Z}_{24}$, let $H = \langle 4 \rangle$ and $N =
+\langle 6 \rangle$. 
+\begin{enumerate}
+ 
+ \item
+List the elements in $HN$ (we usually write $H + N$ for these additive
+groups) and $H \cap N$. 
+ 
+ \item
+List the cosets in $HN/N$, showing the elements in each coset.
+ 
+ \item
+List the cosets in $H/(H \cap N)$, showing the elements in each coset. 
+ 
+ \item
+Give the correspondence between $HN/N$ and $H/(H \cap N)$ described in
+the proof of the Second Isomorphism Theorem. 
+\end{enumerate}
+
+
+\bigskip
+
+\item[{\bf 11.11}]
+Show that a homomorphism defined on a cyclic group is completely
+determined by its action on the generator of the group.
+
+\bigskip
+
+\item[{\bf 11.17}]
+If $H$ and $K$ are normal subgroups of $G$ and $H \cap K = \{ e \}$,
+prove that $G$ is isomorphic to a subgroup of $G/H \times G/K$.
+
+\bigskip
+
+\newcommand\GHGK{\ensuremath{G/H \times G/K}}
+\item[{\bf 11.18}]
+Let $\varphi : G_1 \rightarrow G_2$ be a surjective group homomorphism.
+Let $H_1$ be a normal subgroup of $G_1$ and suppose that $\varphi(H_1) =
+H_2$.  Prove or disprove that $G_1/H_1 \cong G_2/H_2$.
+ 
+\bigskip
+
+\item[{\bf 11.19}]
+Let $\phi : G \rightarrow H$ be a group homomorphism.  Show that
+$\phi$ is one-to-one if and only if $\phi^{-1}(e) = \{ e \}$.
+
+\end{enumerate}
+
+
+\end{document}
+
+
