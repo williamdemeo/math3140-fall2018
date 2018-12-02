@@ -73,9 +73,9 @@ You need not submit solutions to exercises marked "suggested."
 | M 11/19 | Fall Break| no class  | | 
 | W 11/21 | Fall Break| no class  | | 
 | F 11/23 | Fall Break| no class  | | 
-| M 11/26 | group actions: orbits, stabilizers | | **HW 11. Ch 11**: 7, 11, 16, 17, 18  |    
+| M 11/26 | group actions: orbits, stabilizers | |  |    
 | W 11/28 | group actions: the class equation  | |
-|  F 11/30 | introducing rings || 5, 7 of  [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/math3140-Fall2018/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true) |
+|  F 11/30 | introducing rings || **HW 11. Ch 11**: 7, 11, 16, 17, 18 |
 |||| **suggested**: 1-4, 6 of [GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/math3140-Fall2018/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true)  |
 
 
@@ -85,14 +85,14 @@ You need not submit solutions to exercises marked "suggested."
 | --- | --- | --- | --- |
 | M 12/3 | ideals, ring homomorphisms | **Ch 16** |   |
 | W 12/5 | polynomials   | | 
-| F 12/7 | maximal and prime ideals  | | **HW 12. Ch 14**: 1, 2, 3, 9, 11 (justify the formula)  |
+| F 12/7 | maximal and prime ideals  | | **HW 12. Ch 14**: 1, 2, 3; **Ch 16.** 4bd, 16 (recommended: 20, 21, 22).  |
 | M 12/10 | ring isomorphism theorems | |
 | W 12/12 |Review for final exam  | | |
 | W 12/19 | **FINAL EXAM: 1:30--4pm**  MUEN D439  |
 
 
+--
 
-
-
+{\bf Extra credit exercises.} solve all the problems in GeneralAlgebraNotes.pdf](https://github.com/williamdemeo/math3140-Fall2018/blob/master/misc/GeneralAlgebraNotes.pdf?raw=true) {\bf Due.} You may submit suolutions for the extra credit exercises anytime on or before December 14.
 
                                                                   
